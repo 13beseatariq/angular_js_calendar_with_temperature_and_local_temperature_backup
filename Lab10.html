@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="jquery-2.1.4.min.js"> </script>
+<link rel="stylesheet" href="style.css">
+<body>
+<div ng-app="app" ng-controller="control">
+  <table  cellpadding="10" class="flat-table" name="table">
+  	<tr>
+    	<th ng-repeat="x in names"> {{ x }} </td>
+    </tr>
+    <tr>
+    	<td ng-repeat="y in rows1" > {{ y }} </td>
+    </tr>
+    <tr>
+    		<td ng-repeat="y in rows2" > {{ y }} </td>
+    </tr>
+    <tr>
+    		<td ng-repeat="y in rows3"  > {{ y }} </td>
+    </tr>
+    <tr>
+    		<td ng-repeat="y in rows4"  > {{ y }} </td>
+    </tr>
+    <tr>
+    		<td ng-repeat="y in rows5"> {{ y }} </td>
+    </tr>
+  </table>
+  
+   </div>
+   
+<script src="script.js"></script>
+</body>
+</html>
